@@ -48,18 +48,7 @@ while ~feof(f)
 end
 fclose(f);
 
-%% 1-2 %%
 
-s.GGA_Latitude_n=GGAn;
-s.GGA_Longitude_e=GGAe;
-s.GGA_time_UTC=GGAt;
-s.GGA_GPS_Quality_indicator=GGA1;
-s.Number_of_SVsinuse=GGA2;
-s.HDOP=GGA3;
-s.Orthometric_height=GGA4;
-s.Geoid_separation=GGA5;
-s.GPVTG_Speed_over_ground_knots=GPVTGn;
-s.GPVTG_Speed_kilometres_hour=GPVTGk;
 
 %% 1-3 %%
 Laitude_OT_Longitude(s.GGA_Latitude_n,s.GGA_Longitude_e)
