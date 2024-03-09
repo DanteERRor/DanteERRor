@@ -50,7 +50,5 @@ fclose(f);
 
 
 
-%% 1-3 %%
-Laitude_OT_Longitude(s.GGA_Latitude_n,s.GGA_Longitude_e)
-% plot(s.GGAn,s.GGAe)
+
 
